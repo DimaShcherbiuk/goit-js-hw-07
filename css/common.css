@@ -13,6 +13,44 @@ body {
   line-height: 1.5;
 }
 
+/*==== TASK 1====*/
+#categories {
+  list-style-type: none;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background-color: #f6f6fe;
+  margin-bottom: 20px;
+}
+
+.item > ul {
+  list-style-type: none;
+}
+
+.item > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.item > ul > li {
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  margin-left: -40px;
+  margin-bottom: 8px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+/*==== TASK 2====*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +70,128 @@ body {
   object-fit: cover;
   margin: 0;
   padding: 0;
+}
+
+/*==== TASK 3====*/
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+}
+
+/*==== TASK 4====*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.login-form input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  border-radius: 8px;
+  border: none;
+    padding: 2px 4px;
+    width: 86px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+    background: #4e75ff;
+}
+
+/*==== TASK 5====*/
+
+.change-color {
+    border-radius: 8px;
+      border: none;
+      padding: 2px 4px;
+      width: 148px;
+      height: 40px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5; 
+      letter-spacing: 0.04em;
+      color: #fff;
+      background: #4e75ff;
+}
+.color {
+    color: #2e2f42;
+}
+
+/*==== TASK 6====*/
+
+#controls {
+  border-radius: 8px;
+    padding: 32px;
+    width: 496px;
+    height: 104px;
+    background: #f6f6fe;
+    margin-bottom: 32px;
+}
+#controls input {
+  text-align: center;
+border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  margin-right: 16px;
+    background: #f6f6fe;
+}
+
+#controls button[data-create] {
+  border-radius: 8px;
+  border: none;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #4e75ff;
+      color: #fff;
+      font-weight: 500;
+        font-size: 16px;
+        margin-right: 16px;
+}
+#controls button[data-destroy] {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 8px;
+  padding: 32px;
+  background: #f6f6fe;
 }
